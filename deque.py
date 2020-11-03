@@ -3,8 +3,10 @@
 # YOUR NAME
 
 # Hint: pip3 install llist
-# from llist import dllist
+from pyllist import dllist
 
 class Deque:
+    def __init__(self):
+        pass
 
-    pass
+
