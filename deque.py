@@ -7,6 +7,7 @@ from pyllist import dllist
 
 class Deque:
     def __init__(self):
-        pass
+        self.data = dllist()
+        
 
 
