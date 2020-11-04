@@ -8,6 +8,10 @@ from pyllist import dllist
 class Deque:
     def __init__(self):
         self.data = dllist()
+    def enqueue_left(self, value):
+        self.data.appendleft(value)
         
+
+
 
 
