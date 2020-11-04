@@ -16,7 +16,9 @@ class Deque:
         return self.data.popleft()
     def dequeue_right(self):
         return self.data.popright()
-    
+    def is_empty(self):
+        if self.data.first == None:
+            return True
 
 
 
